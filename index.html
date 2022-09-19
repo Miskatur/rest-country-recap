@@ -6,11 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rest Country</title>
+    <style>
+        .header-text {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .countries {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 30px;
+        }
+
+        .country-box {
+            border: 3px solid white;
+            padding: 0px 10px;
+            background-color: antiquewhite;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 20px;
+        }
+
+        .country-box img {
+            height: 192px;
+            width: 320px;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Hello, Rest Country!</h2>
+    <h2 class="header-text">Hello, Rest Country!</h2>
+    <div id="countries" class="countries">
 
+    </div>
 
 
 
